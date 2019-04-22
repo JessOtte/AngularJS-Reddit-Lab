@@ -9,7 +9,7 @@ html, body {
     }  
   .logo {
     float: left;
-    padding-left: 20px;
+    padding-left: 20px; 
     color: #000;
     font-size: 16px; 
     font-weight: 900;
@@ -75,18 +75,23 @@ ul {
     padding: 0;
 }
 
-    .posts-container {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+
+
+    #box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    #box {
         border: 2px rgb(48, 48, 48) solid;
         margin: 10px;
         padding: 15px;
-        width: 40%;
+        width: 50vw;
         -webkit-box-shadow: inset 0px 0px 8px -1px rgba(0,0,0,0.50);
         -moz-box-shadow: inset 0px 0px 8px -1px rgba(0,0,0,0.50);
         box-shadow: inset 0px 0px 8px -1px rgba(0,0,0,0.50);
